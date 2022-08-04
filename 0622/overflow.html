@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent1 {
+        width: 200px;
+        height: 200px;
+        background-color: royalblue;
+        /* overflow: hidden; */
+        /* overflow: scroll;  */
+        /* x축y축 둘다 생긴다 */
+      }
+      .child1 {
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+      }
+      .parent2 {
+        width: 200px;
+        height: 200px;
+        background-color: royalblue;
+        /* overflow: hidden; */
+        /* overflow: scroll;  */
+        /* x축y축 둘다 생긴다 */
+        overflow: hidden;
+      }
+      .child2 {
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+      }
+      .parent3 {
+        width: 200px;
+        height: 200px;
+        background-color: royalblue;
+        overflow-y: scroll;
+      }
+      .child3 {
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+      }
+      .parent4 {
+        width: 200px;
+        height: 200px;
+        background-color: royalblue;
+        overflow-x: scroll;
+      }
+      .child4 {
+        width: 400px;
+        height: 100px;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent1">
+      parent
+      <div class="child1">child</div>
+    </div>
+    <br />
+    <div class="parent2">
+      parent
+      <div class="child2">child</div>
+    </div>
+    <br />
+    <div class="parent3">
+      parent
+      <div class="child3">child</div>
+    </div>
+    <br />
+    <div class="parent4">
+      parent
+      <div class="child4">child</div>
+    </div>
+  </body>
+</html>

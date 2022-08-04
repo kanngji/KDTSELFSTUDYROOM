@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  /* 점도 사라지고 글자도 붙게된다 */
+  padding-left: 0;
+}
+/* HEADER */
+header {
+  background-color: orange;
+  height: 60px;
+}
+
+h1 {
+  /* 중앙정렬 */
+  text-align: center;
+  /* 부모의 height와 같게주면 수직정렬 */
+  line-height: 60px;
+}
+
+/* CONTENTS */
+.contents {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row로 줬으면 jcc 하면 중앙정렬 */
+  /* aic를 센터로 줘야한다 */
+  align-items: center;
+}
+
+.input-part {
+  padding: 30px 0;
+}
+
+.list-part .todo-list {
+  text-align: center;
+}
